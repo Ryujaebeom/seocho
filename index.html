@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>서초사랑동물센터</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- 제이쿼리 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- 사용자 자바스크립트 -->
+  <script src="main.js"></script>
+  <!-- 갤러리 자바스크립트 -->
+  <script src="gallery.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>
+      <a href="./">
+        <img src="images/logo.png" alt="서초사랑동물센터">
+      </a>
+    </h1>
+    <nav>
+      <ul>
+        <li><a href="#">HOME</a>
+
+        </li>
+        <li><a href="#">센터소개</a>
+          <ul class="depth2">
+            <li><a href="sub1_1.html">소개</a></li>
+            <li><a href="#">둘러보기</a></li>
+          </ul>
+        </li>
+        <li><a href="sub1_2.html">입양</a>
+          <ul class="depth2">
+            <li><a href="sub1_2.html">보호 중인 동물</a></li>
+            <li><a href="#">입양 후 소식</a></li>
+          </ul>
+        </li>
+        <li><a href="#">커뮤니티</a>
+          <ul class="depth2">
+            <li><a href="sub1_3.html">오시는 길</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="mainVisual">
+    <div class="container">
+      <!-- 메인 비주얼(갤러리) -->
+      <div class="gallery">
+        <img src="images/main.png" alt="1">
+        <img src="images/main2.png" alt="2">
+        <img src="images/main3.png" alt="3">
+      </div>
+      <!-- 인디케이터 UI -->
+      <ul class="indicator">
+        <li class="active">
+          <a href="#">후원하기</a>
+        </li>
+        <li><a href="#">입양하기</a></li>
+        <li><a href="#">공지사항</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="main">
+    <div class="container">
+      <div class="col">
+        <img src="images/con1.png" alt="1">
+        <div class="text">
+          <h4>입양센터 소식</h4>
+          <p>귀여운 센터 아이들의 모습, 보도자료,<br>
+            반려동물 관련 행사소식 등을 전해드립니다.</p>
+          <a href="#" class="btn btn-green">Center news</a>
+        </div>
+      </div><!-- end col -->
+      <div class="col">
+        <img src="images/con2.png" alt="2">
+        <div class="text">
+          <h4>자원봉사</h4>
+          <p>정기봉사자를 우선으로 배치하고 있습니다.
+            접수는 로그인 후 가능합니다.</p>
+          <a href="#" class="btn btn-cyon">Community</a>  
+        </div>
+      </div><!-- end col -->
+      <div class="col">
+        <img src="images/con3.png" alt="3">
+        <div class="text">
+          <h4>뉴스레터</h4>
+          <p>서초 동물 사랑센터의 각종 뉴스레터를 <br>
+            받아보실수 있습니다</p>
+          <a href="#" class="btn btn-blue">Volunteer</a>  
+        </div>
+      </div><!-- end col -->
+    </div><!-- end container -->
+  </section>
+
+  <footer>
+    <div class="container">
+      <ul class="footerMenu">
+        <li><a href="#">이용약관</a><span>|</span></li>
+        <li><a href="#">개인정보취급방침</a><span>|</span></li>
+        <li><a href="#">이메일주소무단수집거부</a></li>
+      </ul>
+      <p class="address">주소 : 서울 서초구 양재천로19길 22 <span>|</span> 전화번호 : 02-6956-7980~3</p>
+      <p class="copy">Copyright ⓒ 2019, Seoul Abandoned Animal Adoption Center All rights reserved. This is a nonprofit site.</p>
+    </div><!-- end container -->
+  </footer>
+
+</body>
+
+</html>
